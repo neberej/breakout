@@ -1,6 +1,5 @@
 
 import React, { useRef, useState, useEffect, useMemo } from 'react';
-import Seo from "@section/Seo"
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Physics, useBox, useSphere } from '@react-three/cannon';
 import * as THREE from 'three';
@@ -104,7 +103,6 @@ const App = () => {
 
   return (
     <div className="game-container">
-      <Seo page="demo-breakout"/>
       <div className="score">Score: {score}</div>
       <div className="info">
         <div className="controls">
