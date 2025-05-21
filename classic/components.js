@@ -5,7 +5,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Physics, useBox, useSphere } from '@react-three/cannon';
 import { MeshStandardMaterial } from 'three';
 
-import Seo from "@section/Seo"
 import FallingText from './../shared/fallingText/fallingText';
 import "./../shared/breakout.scss";
 import { GAME_CONFIG } from './config-classic';
